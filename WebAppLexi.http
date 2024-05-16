@@ -1,0 +1,20 @@
+﻿@WebAppLexi_HostAddress = https://localhost:7139
+
+POST {{WebAppLexi_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
+
+GET {{WebAppLexi_HostAddress}}/todoitems
+
+###
+
+
+
+GET {{WebAppLexi_HostAddress}}/todoitems/complete
+
+###
